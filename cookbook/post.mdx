@@ -1,1 +1,77 @@
+---
+title: "One-Pan Garlic Butter Salmon"
+description: "A quick, flavorful dinner with minimal cleanup — infused with interactivity."
+thumbnail: "/images/recipes/garlic-butter-salmon.jpg"
+extends: "../../layouts/RecipeLayout.tsx"
+prepTime: "10 mins"
+cookTime: "15 mins"
+ingredients:
+  - Salmon fillets
+  - Garlic cloves
+  - Butter
+  - Lemon
+  - Fresh parsley
+  - Salt & pepper
+---
 
+import CookingTimer from '@/components/CookingTimer'
+import NutritionInfo from '@/components/NutritionInfo'
+import TipsAccordion from '@/components/TipsAccordion'
+
+# 🍽️ One-Pan Garlic Butter Salmon
+
+Perfect for weeknights or when you want to impress someone in under 30 minutes (including yourself).
+
+## 🛒 Ingredients
+
+- 2 salmon fillets  
+- 3 garlic cloves, minced  
+- 2 tbsp butter  
+- 1 lemon, sliced  
+- 1 tbsp fresh parsley, chopped  
+- Salt & pepper to taste  
+
+<NutritionInfo
+  calories={480}
+  protein="34g"
+  carbs="2g"
+  fat="38g"
+/>
+
+## 🔥 Instructions
+
+1. **Prep the salmon**: Pat dry and season both sides with salt and pepper.
+2. **Sear**: In a skillet, melt butter over medium heat. Add garlic and cook for 30 seconds.
+3. **Cook**: Add salmon fillets skin-side down. Sear for 4-5 minutes.
+4. **Flip & finish**: Add lemon slices, baste with butter, cook for 3–4 more minutes.
+5. **Serve** with chopped parsley on top.
+
+## ⏲️ Set Your Timer
+
+<CookingTimer minutes={4} label="Sear Timer" />
+<CookingTimer minutes={3} label="Final Flip Timer" />
+
+## 💡 Tips & Tricks
+
+<TipsAccordion
+  items={[
+    {
+      title: "Can I use frozen salmon?",
+      content: "Yes, just make sure to thaw it completely and pat it dry."
+    },
+    {
+      title: "Substitutes for butter?",
+      content: "Ghee or olive oil works, but butter adds richer flavor."
+    }
+  ]}
+/>
+
+> Cooking should be an experience, not a chore. With dynamic components, you're not just reading — you're **interacting**.
+
+---
+
+## 📸 Final Result
+
+![Garlic Butter Salmon](../../public/images/recipes/garlic-butter-salmon-finished.jpg)
+
+Enjoy the crunch, the zest, and the glory. 🎉
